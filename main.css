@@ -1,0 +1,155 @@
+body {
+	margin: 0;
+}
+
+h1 {
+	font-size: 48px;  
+	font-family: Cambria;
+	font-weight: bold;
+}
+
+h2 {
+	font-size: 20px;
+	font-family: Cambria;
+	color: #949494;
+	margin: auto;
+}
+
+p {
+	font-size: 14px;
+	font-family: calibri;
+	padding-right: 10px;
+	color: #949494;
+}
+
+hr {
+	width:80%;
+	height:1px;
+	background: #ffffff;
+	margin-top: 20px;
+	margin-bottom: 20px;
+	border: 0;
+	border-top: 1px solid #eee;
+}
+
+.pull-left {
+	float: left;
+	padding: 0;
+	margin: 0;
+}
+
+.pull-right {
+	float: right;
+	padding: 0;
+	margin: 0;
+}
+
+.nav {
+	position:relative;
+	margin-top: 20px;
+	padding-left: 0;
+	margin-bottom: 0;
+	list-style: none;
+	overflow: auto;
+}
+
+.nav ul {
+	margin-top: 0px;
+}
+
+.nav li {
+	display: inline;
+	font-family: cambria, sans-serif;
+	font-size: 20px;
+	color: #949494;
+	padding-left: 10px;
+	padding-right: 10px;
+}
+
+.nav a:link, a:visited, a:hover, a:active {
+	color: #949494;
+	text-decoration: none;
+}
+
+.nav a:hover, a:active {
+	text-decoration: underline;
+}
+
+.container {
+	position:relative;
+	margin-right: auto;
+	margin-left: auto;
+	padding-right: 15px;
+	padding-left: 15px;
+	width: 60%;
+	overflow: auto;
+}
+
+.jumbotron .container {
+    position: relative;
+    top: 200px;
+}
+
+.jumbotron {
+	padding-top: 48px;
+	padding-bottom: 48px;
+	margin-bottom: 0;
+	padding-right: 0;
+	padding-left: 0;
+	background-color: #efefef;
+	height: 500px;
+	background-repeat: no-repeat;
+	background-size: cover;
+	width: 100%;
+	background-image: url(../img/jumbotron.png);
+}
+
+.jumbotron h1, .jumbotron h2 {
+	margin: 0px;
+	color: #ffffff;
+	text-shadow: 0 1px 8px #c1c1c1;
+}
+
+.neighborhood-guides {
+	background-color: #efefef;
+}
+
+.row {
+	margin-left: -15px;
+    margin-right: -15px;
+	padding-top: 8px;
+	padding-bottom: 8px;
+	overflow: auto;
+}
+
+table {
+	text-align: left;
+}
+
+th,td {
+	vertical-align: top;
+	padding: 4px;
+}
+
+.thumbnail {
+	position: relative;
+	max-width: 360px;
+    margin-left: auto;
+    margin-right: auto;
+    padding: 4px;
+    margin-bottom: 20px;
+}
+
+.thumbnail>img, .thumbnail a>img {
+    margin-left: auto;
+    margin-right: auto;
+	display: block;
+    max-width: 100%;
+    height: auto;
+	vertical-align: middle;
+	border: 0;
+}
+
+.footer {
+	height: 80px;
+}
